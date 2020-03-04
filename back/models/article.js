@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
       foreignKey:{
         allowNull:false
       }
-    })
-  };
-  return Article;
+    });
+    return Article;
+  }
 };
