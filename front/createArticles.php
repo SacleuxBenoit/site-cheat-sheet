@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#" method="POST">
+    <form action="../back/database/addArticles.php" method="POST">
     <p>
         <label for="articleTitle">Title : </label>
         <input type="text" name="articleTitle" id="articleTitle">
